@@ -4,11 +4,8 @@
   padding: 2rem;
   text-align: center;
 }
-body {
-  background-image: radial-gradient(rgba(83, 83, 83, 0.315) 1px, transparent 0);
-  background-size: 30px 30px;
-  background-color: rgb(255, 253, 225);
-}
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
