@@ -27,7 +27,7 @@ function App() {
     <BrowserRouter>
       <div className="bg-black w-full h-12 flex fixed top-0 left-0 z-30">
         <div className="bg-notebookCover w-full h-12 mt-12 flex">
-          <nav className="grid grid-cols-4 ml-32 gap-0 pt-1 font-edu text-[#4e4019] text-lg ">
+          <nav className="grid grid-cols-4 ml-32 gap-0 pt-1 font-edu text-notebookCoverDark text-lg ">
             <Link
               to="/"
               className="relative bg-green-300 w-32 h-11 rounded-t-xl  flex items-center justify-center"
