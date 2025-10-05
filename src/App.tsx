@@ -1,27 +1,27 @@
-import { useEffect, useState, useRef } from "react";
+
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import CurvedTriangle from "./components/CurvedTriangle";
-import leatherTexture from "./assets/images/leather.png";
-import HomePage from "./components/pages/HomePage";
-import AcademicPage from "./components/pages/AcademicPage";
-import Professional from "./components/pages/professionalPage";
-import ContactPage from "./components/pages/ContactPage";
+// import leatherTexture from "./assets/images/leather.png";
+import HomePage from "./components/pages/HomePage.tsx";
+import AcademicPage from "./components/pages/AcademicPage.tsx";
+import Professional from "./components/pages/ProfessionalPage.tsx";
+import ContactPage from "./components/pages/ContactPage.tsx";
 
 
 function App() {
-  const [tab, setTab] = useState<string>("home");
-  const TextureBackground = ({ texture, children }) => (
-    <div
-      className="w-full h-64 bg-center bg-repeat"
-      style={{
-        backgroundImage: `url(${leatherTexture})`,
-        backgroundSize: "200px 200px", // or 'contain', or any pixel/rem size
-      }}
-    >
-      <h2 className="text-white p-6">Tiled leather texture</h2>
-    </div>
-  );
+  
+  // const TextureBackground = ({ texture, children }) => (
+  //   <div
+  //     className="w-full h-64 bg-center bg-repeat"
+  //     style={{
+  //       backgroundImage: `url(${leatherTexture})`,
+  //       backgroundSize: "200px 200px", // or 'contain', or any pixel/rem size
+  //     }}
+  //   >
+  //     <h2 className="text-white p-6">Tiled leather texture</h2>
+  //   </div>
+  // );
 
   return (
     <BrowserRouter>
